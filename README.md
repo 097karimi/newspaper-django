@@ -3,6 +3,10 @@
 
 # Install
   - pip install pipenv
+  - pipenv install
+  - pipenv shell
+  - ./manage.py makemigrations
+  - ./manage.py migrate
   - ./manage.py runserver
   
 
