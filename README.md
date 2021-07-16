@@ -1,5 +1,5 @@
 # Newspaper website using Django
-***A Newspaper website with a complete user authentication flow and using django templates and bootstrap as frontend***
+**A Newspaper website with a complete user authentication flow and using django templates and bootstrap as frontend**
 
 # Install
   - pip install pipenv
