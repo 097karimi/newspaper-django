@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     # Apps
     'accounts',
     'pages',
+    'articles',
 ]
 
 MIDDLEWARE = [
@@ -141,7 +142,9 @@ CRISPY_TEMPLATE_PACK = 'bootstrap4'
 # text to our command line console instead in order to reset password.
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
-# use this way for sending emain through gmail or use customer 
+TIME_ZONE = 'Asia/Tehran' # Setting timezone from "https://en.wikipedia.org/wiki/List_of_tz_database_time_zones"
+
+# use this way for sending email through gmail or use customer 
 # communication platform for transactional and marketing email like SendGrid.
 
 # EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend' 

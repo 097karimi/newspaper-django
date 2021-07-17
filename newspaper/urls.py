@@ -23,5 +23,6 @@ urlpatterns = [
     path('accounts/', include('django.contrib.auth.urls')), # url to build in auth app
     #path('', TemplateView.as_view(template_name='home.html'),
     #name='home'), # url to home.html
+    path('articles/', include('articles.urls')), # url to articles app
     path('', include('pages.urls')), # url to pages app
 ]
